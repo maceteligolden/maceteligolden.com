@@ -14,7 +14,7 @@ export default function ServicesSection() {
                     />
                      <H4 
                         color="#FFFFFF"
-                        text="Lorem ipsum dolor sit amet consectetur. Ac pre scelerisque nullam hac blandit tristique augue. El amet tellus quisque tincidunt nunc "
+                        text="I’m passionate about helping individuals and businesses achieve their goals through personalized, high-quality services. "
                     />
                 </div>
                 <div className="flex flex-col gap-2">
