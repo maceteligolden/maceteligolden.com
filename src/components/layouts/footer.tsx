@@ -65,19 +65,19 @@ function MenuList() {
             items: [
                 {
                     label: "Linkedln",
-                    url: "/"
+                    url: "https://www.linkedin.com/in/golden-maceteli-08a379222/"
                 },
                 {
                     label: "Twitter",
-                    url: "/"
+                    url: "https://twitter.com/golden_eteli"
                 },
                 {
                     label: "Instagram",
-                    url: "/"
+                    url: "https://instagram.com/golden_eteli"
                 },
                 {
                     label: "Github",
-                    url: "/"
+                    url: "https://github.com/maceteligolden"
                 }
             ]
         },
@@ -85,12 +85,12 @@ function MenuList() {
             header: "Contact",
             items: [
                 {
-                    label: "contact@maceteligolden.com",
-                    url: "/"
+                    label: "maceteligolden@gmail.com",
+                    url: "/emailto:"
                 },
                 {
-                    label: "+2347016181313",
-                    url: "/"
+                    label: "+447301934848",
+                    url: "/tel:+447301934848"
                 },
             ]
         }
