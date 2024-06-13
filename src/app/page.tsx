@@ -12,7 +12,7 @@ export default function Home() {
       <AboutSection/>
       <ServicesSection/>
       <ProjectSection/>
-      <ReviewSection/>
+      {/* <ReviewSection/> */}
    </MainLayout>
   );
 }
