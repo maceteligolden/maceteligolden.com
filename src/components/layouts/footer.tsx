@@ -86,11 +86,11 @@ function MenuList() {
             items: [
                 {
                     label: "maceteligolden@gmail.com",
-                    url: "/emailto:"
+                    url: "emailto:maceteligolden@gmail.com"
                 },
                 {
                     label: "+447301934848",
-                    url: "/tel:+447301934848"
+                    url: "tel:+447301934848"
                 },
             ]
         }
