@@ -16,7 +16,7 @@ export default function AboutSection() {
                     <div className="absolute bottom-[100px] right-0 w-[50%] h-[20%] z-10">
                     <H4 
                         color="#FFFFFF"
-                        text="Lorem ipsum dolor sit amet consectetur. Ac pretium scelerisque nullam hac blandit tristique augue.  Elementum rhoncus aenean suspendisse magnis urna est ac vestibulum. Euismod fringilla purus sit amet tellus quisque tincidunt nunc. elementum arcu ac dui consectetur sapien mi."
+                        text="Hi, I'm Golden, a seasoned software engineer and DevOps enthusiast with a knack for transforming complex problems into elegant solutions. I've honed my skills across various domains, from frontend finesse to backend brilliance, and from cloud computing to system architecture."
                     />
                     </div>
                 </div>
