@@ -1,5 +1,9 @@
+import Footer from "./footer";
 import MainLayout from "./mainlayout";
+import Navbar from "./navbar";
 
 export {
-    MainLayout
+    MainLayout,
+    Navbar,
+    Footer
 }

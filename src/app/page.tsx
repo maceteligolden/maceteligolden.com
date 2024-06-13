@@ -1,13 +1,18 @@
-import Image from "next/image";
+import { MainLayout } from "@/components/layouts";
+import HeroSection from "./hero";
+import AboutSection from "./about";
+import ServicesSection from "./services";
+import ProjectSection from "./projects";
+import ReviewSection from "./review";
 
 export default function Home() {
   return (
-   <main className="h-100 w-100">
-      {/** hero section starts */}
-      <div>
-
-      </div>
-      {/** hero section ends */}
-   </main>
+   <MainLayout>
+      <HeroSection/>
+      <AboutSection/>
+      <ServicesSection/>
+      <ProjectSection/>
+      <ReviewSection/>
+   </MainLayout>
   );
 }
