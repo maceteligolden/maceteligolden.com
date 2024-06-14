@@ -10,7 +10,7 @@ export default function AboutSection() {
                 />
 
                 <div className="w-100 h-[60vh] flex flex-row items-end justify-end relative">
-                    <div className="absolute md:left-[30%] left-0 md:w-[392px] w-[100%] h-[504px] bg-[#22281E] z-0">
+                    <div className="absolute md:left-[30%] left-0 top-50 md:w-[392px] w-[100%] h-[504px] bg-[#22281E] z-0">
 
                     </div>
                     <div className="absolute bottom-[100px] md:right-0  md:w-[50%] w-100 h-[20%] md:px-0 px-5 z-10">
