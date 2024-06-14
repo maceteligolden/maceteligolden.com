@@ -100,7 +100,7 @@ function MenuList() {
             {Menu.map((item: any, index: number)=> {
                 return (
                     <>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4" key={index}>
                         <header className="flex flex-row justify-start items-center border-b-2 border-[#ACACAC] py-4">
                             <P
                                 color="#454B43"
@@ -114,7 +114,7 @@ function MenuList() {
                             item.items.map((page: any, index: number)=> {
                                 return (
                                     <>
-                                        <Link href={page.url}> {page.label}</Link>
+                                        <Link key={index} href={page.url}> {page.label}</Link>
                                     </>
                                 )
                             })
