@@ -5,7 +5,7 @@ export default function H1(props: Typography) {
         <>
             <h1 style={{
                 color: props.color
-            }} className={"text-8xl font-extrabold"}>{props.text}</h1>
+            }} className={"md:text-8xl text-5xl font-extrabold"}>{props.text}</h1>
         </>
     )
 }

@@ -6,7 +6,7 @@ import { Services } from "@/lib/constant";
 export default function ServicesSection() {
     return (
         <>
-            <section className={"w-100 h-100 bg-[#000] py-5 px-[50px] md:py-10 md:px-[100px] grid gap-20 grid-cols-2"}>
+            <section className={"w-100 h-100 bg-[#000] py-5 px-[50px] md:py-10 md:px-[100px] md:grid md:gap-20 md:grid-cols-2 flex flex-col"}>
                 <div className={" flex flex-col gap-8"}>
                     <H1 
                         color="#FFF"

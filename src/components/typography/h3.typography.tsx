@@ -6,7 +6,7 @@ export default function H3(props: Typography) {
             <h1 style={{
                 color: props.color,
                 fontWeight: props.fontWeight
-            }} className={"text-5xl"}>{props.text}</h1>
+            }} className={"md:text-5xl text-3xl"}>{props.text}</h1>
         </>
     )
 }

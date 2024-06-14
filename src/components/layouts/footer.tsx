@@ -3,10 +3,10 @@ import { H1, H3, H4, H5, P } from "../typography";
 
 export default function Footer() {
     return (<>
-        <footer className="flex flex-col justify-end h-screen w-100 bg-[#FFF] py-5 px-[50px] md:py-10 md:px-[100px]">
+        <footer className="flex flex-col justify-end h-100 w-100 bg-[#FFF] py-5 px-[50px] md:py-10 md:px-[100px] mt-[100px]">
             <div className="flex flex-row w-100 text-center justify-center">
-                <div className=" w-9/12 flex flex-col gap-6 ">
-                    <span className="w-[40%] flex flex-row self-center justify-center">
+                <div className="md:w-9/12 w-100 flex flex-col gap-6 ">
+                    <span className="md:w-[40%] w-100 flex flex-row self-center justify-center">
                         <H5
                             text={"Do you have a project?"}
                         />
@@ -17,7 +17,7 @@ export default function Footer() {
                     />    
                 </div>
             </div>
-            <div className="grid grid-cols-3 gap-6 mt-10">
+            <div className="md:grid md:grid-cols-3 flex flex-col gap-6 mt-10">
                 <MenuList/>
             </div>
             <div className="flex flex-col mt-[40px]">

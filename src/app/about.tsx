@@ -10,10 +10,10 @@ export default function AboutSection() {
                 />
 
                 <div className="w-100 h-[60vh] flex flex-row items-end justify-end relative">
-                    <div className="absolute left-[30%] w-[392px] h-[504px] bg-[#22281E] z-0">
+                    <div className="absolute md:left-[30%] left-0 md:w-[392px] w-[100%] h-[504px] bg-[#22281E] z-0">
 
                     </div>
-                    <div className="absolute bottom-[100px] right-0 w-[50%] h-[20%] z-10">
+                    <div className="absolute bottom-[100px] md:right-0  md:w-[50%] w-100 h-[20%] md:px-0 px-5 z-10">
                     <H4 
                         color="#FFFFFF"
                         text="Hi, I'm Golden, a seasoned software engineer and DevOps enthusiast with a knack for transforming complex problems into elegant solutions. I've honed my skills across various domains, from frontend finesse to backend brilliance, and from cloud computing to system architecture."
