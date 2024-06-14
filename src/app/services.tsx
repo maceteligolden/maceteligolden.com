@@ -22,7 +22,7 @@ export default function ServicesSection() {
                         Services.map((service: AccordionProps, index: number) => {
                             return (
                                 <>
-                                    <Accordion label={service.label} content={service.content}/>
+                                    <Accordion key={index} label={service.label} content={service.content}/>
                                 </>
                             )
                         })
